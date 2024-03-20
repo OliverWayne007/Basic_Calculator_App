@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Calculator</title>
+    <title>Basic Calculator App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="content">
-        <div id="heading">Calculator App</div>
-        <div id="firstNumber">
-            <label class="spanContentStyle"> Enter the first number:   </label>
-            <input class="input" id="firstNumInput" type="text">
+    <div class="container">
+        <div id="title">
+            <h1 id="heading">CALCULATOR</h1>
         </div>
-        <div id="secondNumber">
-            <label class="spanContentStyle"> Enter the second number:   </label>
-            <input class="input" id="secondNumInput" type="text">
+        <div class="inputContainer">
+            <label for="" class="label">First Number: </label> <input id="firstNumInput" class="input" type="text" placeholder="Enter the first number">
         </div>
-        <div id="buttons">
-            <button class="button" id="add">Add</button>
-            <button class="button" id="subtract">Subtract</button>
-            <button class="button" id="multiply">Multiply</button>
-            <button class="button" id="divide">Divide</button>
+        <div class="inputContainer">
+            <label for="" class="label">Second Number: </label> <input id="secondNumInput" class="input" type="text" placeholder="Enter the second number">
         </div>
-    </div>
+        <div class="buttonContainer">
+            <button class="button" id="add">ADD</button>
+            <button class="button" id="subtract">SUBTRACT</button>
+            <button class="button" id="multiply">MULTIPLY</button>
+            <button class="button" id="divide">DIVIDE</button>
+        </div>
     <script src="script.js"></script>
+    </div>
 </body>
 </html>
